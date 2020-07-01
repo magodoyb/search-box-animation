@@ -37,7 +37,6 @@ class App extends Component {
 
         return (
             <MuiThemeProvider>
-                <h1>Example</h1>
                 <div style={style}>
                     {this.state.animatedComponents[this.state.selectIndex]}
                     <SelectField
